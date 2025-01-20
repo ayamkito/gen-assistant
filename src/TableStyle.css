@@ -1,0 +1,104 @@
+/* Table styling */
+.fourByFourTable {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders are collapsed into a single border */
+    margin-top: 20px; /* Adds space above the table */
+  }
+  
+  .fourByFourTable th, 
+  .fourByFourTable td {
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 10px; /* Padding for cells */
+    text-align: left; /* Left align text */
+  }
+  
+  /* Header styling */
+  .fourByFourTable th {
+    background-color: #4CAF50; /* Green background for headers */
+    color: white; /* White text for headers */
+  }
+  
+  /* Row hover effect */
+  .fourByFourTable tr:hover {
+    background-color: #f1f1f1; /* Light grey background on hover */
+  }
+  
+  /* Input styling */
+  input[type="text"] {
+    width: 100%; /* Full width input */
+    padding: 8px; /* Padding inside input */
+    box-sizing: border-box; /* Includes padding in width calculation */
+    border: 1px solid #ccc; /* Border for input */
+    border-radius: 4px; /* Rounded corners for input */
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text for button */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer cursor on hover */
+  }
+  
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* Feedback message styling */
+  p {
+    color: #ff0000; /* Red text for feedback messages */
+    font-weight: bold; /* Bold text for emphasis */
+    margin-top: 10px; /* Space above feedback message */
+  }
+
+  
+  /* input containers */
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  label {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .toggle-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .toggle-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .true-line-input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+  }
+  
